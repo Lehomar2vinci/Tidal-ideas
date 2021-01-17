@@ -1,0 +1,24 @@
+Hello there !
+
+A little test to try Tidal Cycles
+
+
+bpm 120
+
+d1 $ sound "bd sd:2 hh*6 hh:3*0.125"
+
+d2 $ sound "hh hh hh:7 hh oh:4"
+
+p "susan" $ silence
+d3 $ silence
+
+d1 $ sound "arpy(3,8)" # n "2 5"
+d2 $ sound "bd/0.5"
+d3 $ sound "hh/0.125"
+d4 $ sound "hh:5/0.5"
+d1 $ sound "bd sd/3 hh/0.125 cp:4 mt:3 arpy:8 drum*4 odx bd*5 arpy/0.5 bass2*2 feel*16 future" 
+    # room 1
+hush
+d1 $ silence
+
+d2 $ sound "arpy*4" # room 0.9 # size 0.9 # orbit 1
