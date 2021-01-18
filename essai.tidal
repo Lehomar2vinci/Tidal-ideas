@@ -1,24 +1,44 @@
-Hello there !
+d1 $ sound "depn:5" # speed "0.1"
+d2 $ sound "bd*1"
+d3 $ sound "hh*3"
 
-A little test to try Tidal Cycles
-
-
-bpm 120
-
-d1 $ sound "bd sd:2 hh*6 hh:3*0.125"
-
-d2 $ sound "hh hh hh:7 hh oh:4"
-
-p "susan" $ silence
-d3 $ silence
-
-d1 $ sound "arpy(3,8)" # n "2 5"
-d2 $ sound "bd/0.5"
-d3 $ sound "hh/0.125"
-d4 $ sound "hh:5/0.5"
-d1 $ sound "bd sd/3 hh/0.125 cp:4 mt:3 arpy:8 drum*4 odx bd*5 arpy/0.5 bass2*2 feel*16 future" 
-    # room 1
 hush
-d1 $ silence
+d7 $ sound "depn cp:10 cp"
+d1 $ speed "-6 24 -24 12 -12 6 -6 3 -3"
+  # sound "depn"
+  # room 0.9
+  # delay 0.3
+  # pan 2
+  # gain 1
+--
+d9 $ silence
+d2 $ sound "glitch:1*4 <glitch:2>*2 glitch:5"
+  # room 0.001
+  # pan 1
 
-d2 $ sound "arpy*4" # room 0.9 # size 0.9 # orbit 1
+d9 $ sound "glitch:1*4 glitch: 2*2 glitch:5"
+    # room 0.001
+    # pan 1
+-- arpeggios
+d3 $ speed "3 4 2 6 4 5 6 7 8 9 10 12" # sound "glitch:5/3" # gain "0.9" #pan 0.2 # room 0.9
+-- kick
+d4 $ sound "bd*4"
+--snare
+d5 $ speed " 8 0 8 0"
+# sound "sn:7"
+# room 0.5
+# speed "3"
+d6 $ speed "2 4 1 8 7 6" # sound "cp*8"
+
+
+
+d1 $ sound "bd [sd sd sd]"
+
+
+
+
+
+
+
+
+hush
