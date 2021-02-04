@@ -1,44 +1,13 @@
-d1 $ sound "depn:5" # speed "0.1"
-d2 $ sound "bd*1"
-d3 $ sound "hh*3"
 
+
+d1 $ sound "<808>*[4 4 2 4 4 32 4 32 4 8 8 16]" # irand 13 # pan "2 6 7 1"
+d1 $ speed "-1 3 2 [-6 12 24] 48 [96 2 4] 5*3 7 -88" # sound " hh " # gain 1 # pan "1 25 2 4 29 -46" # room "1 " # irand 10
+d3 $ silence
+d4 $ sound "*[2 4 4 4 8 8 8 16 8 4 8]" # irand 10
 hush
-d7 $ sound "depn cp:10 cp"
-d1 $ speed "-6 24 -24 12 -12 6 -6 3 -3"
-  # sound "depn"
-  # room 0.9
-  # delay 0.3
-  # pan 2
-  # gain 1
---
-d9 $ silence
-d2 $ sound "glitch:1*4 <glitch:2>*2 glitch:5"
-  # room 0.001
-  # pan 1
+d1 $ sound "<bd hh hh hh jazz>*16" # room 0.125 # irand 14 # speed "-12 4 -1 2 6 -7" # pan "4 -5"
 
-d9 $ sound "glitch:1*4 glitch: 2*2 glitch:5"
-    # room 0.001
-    # pan 1
--- arpeggios
-d3 $ speed "3 4 2 6 4 5 6 7 8 9 10 12" # sound "glitch:5/3" # gain "0.9" #pan 0.2 # room 0.9
--- kick
-d4 $ sound "bd*4"
---snare
-d5 $ speed " 8 0 8 0"
-# sound "sn:7"
-# room 0.5
-# speed "3"
-d6 $ speed "2 4 1 8 7 6" # sound "cp*8"
+bye
 
 
-
-d1 $ sound "bd [sd sd sd]"
-
-
-
-
-
-
-
-
-hush
+d1 $ speed "1 1 2 8 8 8 4 9 10 20 4 4 4 2 6 " # sound "less*[4 8 8 8 16 8 8 8 16 4 4 2]" # amp 1.2 # irand 9 # pan "1 8.5 12 15 0 0 0 0 " # room 0.21
