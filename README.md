@@ -1,2 +1,4 @@
 # Tidal-ideas
-Some ideas for live coding music's Tidal Cycles software
+
+
+Some ideas using live coding music's Tidal Cycles computer system  
