@@ -1,13 +1,35 @@
 
 
-d1 $ sound "<808>*[4 4 2 4 4 32 4 32 4 8 8 16]" # irand 13 # pan "2 6 7 1"
-d1 $ speed "-1 3 2 [-6 12 24] 48 [96 2 4] 5*3 7 -88" # sound " hh " # gain 1 # pan "1 25 2 4 29 -46" # room "1 " # irand 10
+d1 $ sound "<808>*[4 4 2 4 4 32 4 32 4 8 8 16]" 
+  # irand 13 # pan "2 6 7 1"
+
+
+d1 $ speed "-1 3 2 [-6 12 24] 48 [96 2 4] 5*3 7 -88" 
+  # sound " hh " 
+  # gain 1 # pan "1 25 2 4 29 -46" 
+  # room "1 " 
+  # irand 10
+
+
 d3 $ silence
-d4 $ sound "*[2 4 4 4 8 8 8 16 8 4 8]" # irand 10
+
+d4 $ sound "*[2 4 4 4 8 8 8 16 8 4 8]" 
+  # irand 10
 hush
-d1 $ sound "<bd hh hh hh jazz>*16" # room 0.125 # irand 14 # speed "-12 4 -1 2 6 -7" # pan "4 -5"
+d1 $ sound "<bd hh hh hh jazz>*16" 
+  # room 0.125 
+  # irand 14 
+  # speed "-12 4 -1 2 6 -7" 
+  # pan "4 -5"
 
-bye
+
+d1 $ speed "1 1 2 8 8 8 4 9 10 20 4 4 4 2 6 " 
+  # sound "less*[4 8 8 8 16 8 8 8 16 4 4 2]" 
+  # amp 1.2 
+  # irand 9 
+  # pan "1 8.5 12 15 0 0 0 0 " 
+  # room 0.21
 
 
-d1 $ speed "1 1 2 8 8 8 4 9 10 20 4 4 4 2 6 " # sound "less*[4 8 8 8 16 8 8 8 16 4 4 2]" # amp 1.2 # irand 9 # pan "1 8.5 12 15 0 0 0 0 " # room 0.21
+
+--bye :)
